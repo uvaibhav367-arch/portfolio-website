@@ -1,7 +1,7 @@
 export const LINKS = {
   github: 'https://github.com/uvaibhav367-arch',
   linkedin: 'https://www.linkedin.com/in/vaibhav-upadhyay-233556297',
-  portfolio: 'https://vaibhavupadhyay.vercel.app',
+  portfolio: 'https://uvaibhav367-arch.vercel.app',
   email: 'uvaibhav367@gmail.com',
   phone: '+91 7725998500',
   location: 'Jaipur, Rajasthan, India',
@@ -61,8 +61,8 @@ export const PROJECTS = [
       'React Router for dynamic routes',
       'Responsive, accessible UI',
     ],
-    repo: 'https://github.com/uvaibhav367-arch/ai-blog-app',
-    live: 'https://ai-blog-app.vercel.app',
+    repo: null,
+    live: null,
     featured: true,
   },
   {
@@ -77,7 +77,7 @@ export const PROJECTS = [
       'Working contact form',
     ],
     repo: 'https://github.com/uvaibhav367-arch/portfolio-website',
-    live: 'https://vaibhavupadhyay.vercel.app',
+    live: 'https://uvaibhav367-arch.vercel.app',
     featured: true,
   },
   {
@@ -92,7 +92,7 @@ export const PROJECTS = [
       'Responsive layout',
     ],
     repo: 'https://github.com/uvaibhav367-arch/javascript-calculator',
-    live: 'https://vaibhavupadhyay.github.io/javascript-calculator/',
+    live: 'https://uvaibhav367-arch.github.io/javascript-calculator/',
     featured: false,
   },
   {
@@ -106,8 +106,8 @@ export const PROJECTS = [
       'Flexbox & Grid',
       'Mobile responsive',
     ],
-    repo: 'https://github.com/uvaibhav367-arch/website-ui-clone',
-    live: 'https://vaibhavupadhyay.github.io/website-ui-clone/',
+    repo: null,
+    live: null,
     featured: false,
   },
 ];

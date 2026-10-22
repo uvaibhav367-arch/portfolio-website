@@ -1,5 +1,5 @@
 import { PROJECTS } from '../data/profile';
-import { ExternalIcon, GithubIcon } from './Icons';
+import { ClockIcon, ExternalIcon, GithubIcon } from './Icons';
 
 export default function Projects() {
   return (
@@ -33,12 +33,21 @@ export default function Projects() {
               </ul>
 
               <div className="project-links">
-                <a className="link-btn" href={project.repo} target="_blank" rel="noreferrer">
-                  <GithubIcon width={16} height={16} /> Code
-                </a>
-                <a className="link-btn" href={project.live} target="_blank" rel="noreferrer">
-                  <ExternalIcon width={16} height={16} /> Live demo
-                </a>
+                {project.repo && (
+                  <a className="link-btn" href={project.repo} target="_blank" rel="noreferrer">
+                    <GithubIcon width={16} height={16} /> Code
+                  </a>
+                )}
+                {project.live && (
+                  <a className="link-btn" href={project.live} target="_blank" rel="noreferrer">
+                    <ExternalIcon width={16} height={16} /> Live demo
+                  </a>
+                )}
+                {!project.repo && !project.live && (
+                  <span className="link-btn pending">
+                    <ClockIcon width={16} height={16} /> Code &amp; demo coming soon
+                  </span>
+                )}
               </div>
             </article>
           ))}

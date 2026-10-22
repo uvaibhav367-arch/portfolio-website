@@ -634,6 +634,18 @@ html[data-theme='dark'] .code-window .s {
   transform: translateY(-2px);
 }
 
+.link-btn.pending {
+  color: var(--text-muted);
+  cursor: default;
+  border-style: dashed;
+}
+
+.link-btn.pending:hover {
+  border-color: var(--border);
+  color: var(--text-muted);
+  transform: none;
+}
+
 /* ---------- Timeline / Education ---------- */
 
 .timeline {
