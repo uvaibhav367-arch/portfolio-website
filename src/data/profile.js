@@ -1,6 +1,6 @@
 export const LINKS = {
   github: 'https://github.com/vaibhavupadhyay',
-  linkedin: 'https://linkedin.com/in/vaibhavupadhyay',
+  linkedin: 'https://www.linkedin.com/in/vaibhav-upadhyay-233556297',
   portfolio: 'https://vaibhavupadhyay.vercel.app',
   email: 'uvaibhav367@gmail.com',
   phone: '+91 7725998500',
